@@ -1,11 +1,11 @@
 # 📊 Data Cleaning and Visualization with Pearson Correlation
 
-## 📌 Overview
+## Overview
 This project focuses on cleaning a messy dataset and performing data visualization to extract meaningful insights. The main objective is to analyze relationships between variables using the Pearson correlation method.
 
 ---
 
-## 🧹 Data Cleaning
+## Data Cleaning
 
 The dataset contained several issues:
 - Missing values in Age, Salary, and Join Date
@@ -13,7 +13,7 @@ The dataset contained several issues:
 - Incorrect formats (e.g., "thirty-eight", "sixty five thousand")
 - Inconsistent country values (AU vs AUS)
 
-### ✔ Cleaning Steps:
+### Cleaning Steps:
 - Converted text values into numeric values
 - Filled missing values using mean and mode
 - Removed duplicate rows
@@ -22,28 +22,28 @@ The dataset contained several issues:
 
 ---
 
-## 📊 Data Visualization
+## Data Visualization
 
-### 📈 Histogram
+### Histogram
 Used to visualize the distribution of Age and Salary.
 
-### 🔥 Pearson Correlation Heatmap
+### Pearson Correlation Heatmap
 Used to identify relationships between variables.
 
 **Result:**
 - Moderate positive correlation (~0.63) between Age and Salary
 - Indicates that as age increases, salary tends to increase
 
-> ⚠️ Correlation does not imply causation.
+> Correlation does not imply causation.
 
 ---
 
-### ⚠️ Outlier Detection (Boxplot)
+### Outlier Detection (Boxplot)
 Used to identify extreme values that may affect analysis.
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 - Python
 - Pandas
 - Matplotlib
@@ -52,7 +52,7 @@ Used to identify extreme values that may affect analysis.
 
 ---
 
-## 📷 Output
+## Output
 
 ### Histogram
 ![Histogram](histogram.png)
@@ -65,7 +65,7 @@ Used to identify extreme values that may affect analysis.
 
 ---
 
-## 🎥 Presentation
+## Presentation
 A short video (3 minutes) explains:
 - Data cleaning process
 - Visualization insights
@@ -74,7 +74,7 @@ A short video (3 minutes) explains:
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 Data cleaning improved the dataset quality, and visualization helped identify meaningful patterns and relationships.
 
 ---
